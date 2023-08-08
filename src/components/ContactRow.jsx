@@ -1,11 +1,11 @@
 //import { useState } from 'react'
 
-export default function ContactRow({ contact }) {
+export default function ContactRow({ bubbles }) {
     return (
       <tr>
-        <td>{contact.name}</td>
-        <td>{contact.email}</td>
-        <td>{contact.phone}</td>
+        <td>{bubbles.name}</td>
+        <td>{bubbles.email}</td>
+        <td>{bubbles.phone}</td>
       </tr>
     );
   }

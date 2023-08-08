@@ -25,7 +25,7 @@ export default function ContactList() {
               <td>Phone</td>
             </tr>
             {contacts.map((contact) => {
-          return <ContactRow key={contact.id} contact={contact} />;
+          return <ContactRow key={contact.id} bubbles={contact}/>;
         })}
           </tbody>
         </table>
